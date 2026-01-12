@@ -23,38 +23,16 @@ The SDK supports **single-shot** and **subscribed** location fetching without co
 
 ### Add Mappls SDK (iOS)
 
-Mappls iOS SDK is distributed via **CocoaPods** or **Swift Package Manager (SPM)**.
+Mappls iOS SDK is distributed via **Swift Package Manager (SPM)**.
 
 ---
-
-### Using CocoaPods (Recommended)
-
-Install CocoaPods if not already installed:
-
-```bash
-sudo gem install cocoapods
-## Setup & Usage
-
-### Install via CocoaPods
-Add Mappls source and SDK to your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/mappls-ios/cocoapods-specs.git'
-
-platform :ios, '12.0'
-
-target 'YourAppTarget' do
-  use_frameworks!
-  pod 'MapplsLocationCapture'
-end
 
 ### Using Swift Package Manager (SPM)
 
 Open Xcode → File → Add Packages → Enter:
 
 ```
-https://github.com/mappls-ios/mappls-ios-sdk
+https://github.com/mappls-api/mappls-location-capture-sdk-ios-distribution.git
 ```
 
 Select `MapplsLocationCapture` and add it to your target.
