@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MapplsUIWidgets",
+    name: "MapplsLocationCapture",
     platforms: [
         .iOS(.v13)
     ],
@@ -12,13 +12,13 @@ let package = Package(
             targets: ["MapplsLocationCaptureWrapper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/mappls-api/mappls-api-core-ios-distribution.git", from: "2.0.6")
+        .package(url: "https://github.com/mappls-api/mappls-api-core-ios-distribution.git", from: "2.0.8")
     ],
     targets: [
         .binaryTarget(
             name: "MapplsLocationCapture",
-            url: "https://mmi-api-team.s3.amazonaws.com/mappls-sdk-ios/mappls-uiwidget/MapplsUIWidgets.xcframework-2.0.0.zip",
-            checksum: "cc1b8b02769a04c53afee1b384992c761ec0bcae011df9e94f44264971fb786f"
+            url: "https://mmi-api-team.s3.amazonaws.com/mappls-sdk-ios/mappls-location-capture/MapplsLocationCapture.xcframework-1.0.0.zip",
+            checksum: "809975228470c14675911c4823538f722e10d3f8d9da85f2fbc60529fc61180f"
         ),
         .target(
             name: "MapplsLocationCaptureWrapper",
