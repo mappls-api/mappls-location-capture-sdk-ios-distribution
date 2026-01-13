@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MapplsLocationCapture",
-            url: "https://mmi-api-team.s3.amazonaws.com/mappls-sdk-ios/mappls-location-capture/MapplsLocationCapture.xcframework-1.0.0.zip",
-            checksum: "809975228470c14675911c4823538f722e10d3f8d9da85f2fbc60529fc61180f"
+            url: "https://mmi-api-team.s3.amazonaws.com/mappls-sdk-ios/mappls-location-capture/MapplsLocationCapture.xcframework-1.0.2.zip",
+            checksum: "cc1b8b02769a04c53afee1b384992c761ec0bcae011df9e94f44264971fb786f"
         ),
         .target(
             name: "MapplsLocationCaptureWrapper",
